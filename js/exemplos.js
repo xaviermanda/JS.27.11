@@ -1,7 +1,38 @@
-$("#alternar1").show();
+$("#alternar1").hide();
+
+$("#esconder").click(function() {
+    //$("#teste1").fadeOut();
+    $("#teste1").hide();
+
+   
+});
+
+
+
+$("#mostrar").click(function() {
+    //$("#teste1").fadeOut();
+    $("#teste1").show();
+
+   
+});
+
+$("#alterarCSS").click(function() {
+    //$("#teste1").fadeOut();
+    $("#teste2").css({"background-color": "#2a98bc", "font-size": "50px"});
+
+   
+});
+$("#alterarClass").click(function() {
+    //$("#teste1").fadeOut();
+    $("#teste3").removeClass("alert-success").addClass("alert-primary");
+    $("#alterarClass").removeClass("btn-success").addClass("btn-primary");
+
+   
+});$("#alternar1").show();
 $("#alternar2").hide();
 $("#alternar3").hide();
 $("#alternar4").hide();
+
 
 $("#alternar1").click(function () {
     $("#link").attr({

@@ -78,6 +78,43 @@ section .section-title {
   font-weight: 700;
 }
 
+/* Cores customizadas para botões */
+.btn-pink-baby {
+  background-color: #FFB6D9;
+  border-color: #FFB6D9;
+  color: #333;
+}
+
+.btn-pink-baby:hover {
+  background-color: #FF99CC;
+  border-color: #FF99CC;
+  color: #333;
+}
+
+.btn-blue-baby {
+  background-color: #ADD8E6;
+  border-color: #ADD8E6;
+  color: #333;
+}
+
+.btn-blue-baby:hover {
+  background-color: #87CEEB;
+  border-color: #87CEEB;
+  color: #333;
+}
+
+.btn-lilac {
+  background-color: #DA70D6;
+  border-color: #DA70D6;
+  color: #fff;
+}
+
+.btn-lilac:hover {
+  background-color: #C56CC0;
+  border-color: #C56CC0;
+  color: #fff;
+}
+
 @media (max-width:767px) {
   #footer h5 {
     padding-left: 0;
