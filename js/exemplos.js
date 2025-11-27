@@ -22,13 +22,30 @@ $("#alterarCSS").click(function() {
 
    
 });
-$("#alterarClass").click(function() {
-    //$("#teste1").fadeOut();
-    $("#teste3").removeClass("alert-success").addClass("alert-primary");
-    $("#alterarClass").removeClass("btn-success").addClass("btn-primary");
+$("#class1").click(function () {
+    $("#teste3").removeClass("alert-success").addClass("alert-warning");
+
+    $("#class1").hide();
+    $("#class2").show();
+});
+
+$("#class2").click(function () {
+    $("#teste3").removeClass("alert-warning").addClass("alert-danger");
+
+    $("#class2").hide();
+    $("#class3").show();
+});
+
+$("#class3").click(function () {
+    $("#teste3").removeClass("alert-danger").addClass("alert-success");
+
+    $("#class3").hide();
+    $("#class1").show();
+});
+
 
    
-});$("#alternar1").show();
+$("#alternar1").show();
 $("#alternar2").hide();
 $("#alternar3").hide();
 $("#alternar4").hide();
